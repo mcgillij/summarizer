@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tldr"
+version = "0.1.0"
+description = ""
+authors = ["mcgillij <mcgillivray.jason@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spacy = "^3.4.1"
+
+[tool.poetry.dev-dependencies]
+nbdev = "^2.1.3"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
